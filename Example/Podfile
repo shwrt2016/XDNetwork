@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XDNetwork_Example' do
+  pod 'XDNetwork', :path => '../'
+
+  target 'XDNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

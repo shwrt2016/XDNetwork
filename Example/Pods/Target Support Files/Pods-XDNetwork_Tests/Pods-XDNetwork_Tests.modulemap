@@ -1,0 +1,6 @@
+framework module Pods_XDNetwork_Tests {
+  umbrella header "Pods-XDNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
